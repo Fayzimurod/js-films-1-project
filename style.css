@@ -1,0 +1,98 @@
+body{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-size: cover;
+    background-image: url(./image.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow-x: hidden;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+
+}
+.nav-name{
+    color: white;
+    font-size: 50px;
+    text-transform: uppercase;
+    text-shadow: 6px 6px 8px black;
+}
+.film-box{
+    width: 100%;
+    height: max-content;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 5px;
+    /* flex-flow: ; ??? */
+}
+
+.movie-info{
+    width: 50%;
+    color: whitesmoke;
+    text-align: start;
+    padding-left: 15px;
+}
+.movie-box{
+    width: 300px;
+    display: flex;
+    background-color: #333;
+    transition: 0.1s linear;
+}
+.movie-box:hover{
+    transform: scale(1.05);
+}
+
+.movie-title-1{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.input-search{
+    text-transform: capitalize;
+    outline-color: rgb(0, 76, 183);
+    padding: 5px;
+    border-radius: 5px;
+}
+.btn-1{
+    border: none;
+    background-color: #222;
+    color: white;
+    text-transform: uppercase;
+    padding: 10px;
+    border-radius: 5px;
+    transition: 0.25s linear;
+}
+.btn-1:hover{
+    background-color: rgb(0, 76, 183);
+    /* transform: translateY(-5px); */
+    box-shadow: 0 7px 0 rgba(128, 128, 128, 0);
+}
+.btn-1:active{
+    box-shadow: 0 0 15px rgb(0, 76, 183);
+    transition: 0.05s linear;
+    /* transform: translateY(0); */
+}
+.btn-2{
+    border: none;
+    background-color: #222;
+    color: white;
+    text-transform: uppercase;
+    padding: 10px;
+    border-radius: 5px;
+    transition: 0.25s linear;
+}
+.btn-2:hover{
+    background-color: rgb(221, 114, 0);
+    /* transform: translateY(-5px); */
+    box-shadow: 0 7px 0 rgba(128, 128, 128, 0);
+}
+.btn-2:active{
+    box-shadow: 0 0 15px rgb(221, 114, 0);
+    transition: 0.05s linear;
+    /* transform: translateY(0); */
+}
